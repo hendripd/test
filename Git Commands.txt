@@ -1,0 +1,21 @@
+Git Commands
+--------------
+
+Command					Function
+-----------------------------------------------------------------------------------------------------------
+git init				Initialize local repository
+git add <file> [.,*]			Add file(s) to the staging area
+git status				Check status of files in the staging area
+git commit -m "message"			Commit changes to the local repository
+git commit, I to insert, :wq to commit	Commit changes to the local repository
+git push				Push local repository to remote repository
+git pull				Pull changes from the remote repository to the local repository
+git clone				Copy a remote repository into a new directory
+git rm --cached <file>			Remove file from repository
+git config -global user.name "name"
+git config -global user.email "email"
+git branch <name>			Make a new branch
+git checkout <branch name>		Change branch, virtually using 'cd' to get into the branch
+git merge <branch>			Merges branch into master branch
+git remote add <name> <url>		Adds a new remote repository
+git push -u <name> <branch>		Pushes changes to remote repository
